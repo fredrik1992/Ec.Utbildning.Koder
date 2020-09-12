@@ -1,0 +1,13 @@
+package EcUtbildningKoder.Uppgifter1_80;
+
+public class uppgift33 {
+    public static void main (String[] args){
+
+        int num = 100;
+
+        while(num>=0){
+            System.out.println(num);
+            num = num -1;
+        }
+    }
+}
