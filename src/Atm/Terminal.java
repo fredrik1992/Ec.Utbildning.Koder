@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class Terminal {
 
 
-    public static void choice(Account name) {
+    public static void choice(Account account) {
         int choice = 1;
-        System.out.println("hello " + name.getName());
+        System.out.println("hello " + account.getName());
 
         while (choice != 0) {
             Scanner scan = new Scanner(System.in);
@@ -23,14 +23,14 @@ public class Terminal {
 
                 case 1:
                     System.out.println("write the ammount to Withdraw");
-                    name.withdraw(scan.nextInt());
+                    account.withdraw(scan.nextInt());
                     break;
                 case 2:
                     System.out.println("write the ammount to deposit");
-                    name.deposit(scan.nextInt());
+                    account.deposit(scan.nextInt());
                     break;
                 case 3:
-                    System.out.println(name.getBalance());
+                    System.out.println(account.getBalance());
                     break;
                 case 4:
                     System.out.println("See you soon !");
