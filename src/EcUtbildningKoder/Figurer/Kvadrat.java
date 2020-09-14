@@ -28,7 +28,8 @@ public class Kvadrat extends Figurer {////arv extends
 
     @Override
     public void rita() {
-        System.out.println("nu ska vi rita en kvadrat");
+        super.rita();
+        System.out.printf("kvadrat");
 
 
     }

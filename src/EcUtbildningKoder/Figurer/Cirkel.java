@@ -28,7 +28,8 @@ public class Cirkel extends Figurer {//skapar en subclass ifrån figurer
     }
     @Override
     public void rita() {
-        System.out.println("nu ska vi rita en cirkel");
+
+        System.out.printf("cirkel");
 
 
     }

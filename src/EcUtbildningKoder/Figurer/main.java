@@ -3,10 +3,10 @@ package EcUtbildningKoder.Figurer;
 public class main {
     public static void main(String[] args) {
         Figurer[] figvekt = new Figurer[5];
-        figvekt[0] = new Figurer(5, 7, 2);
-        figvekt[1] = new Cirkel(5, 7, 2,50);
-        figvekt[2] = new Kvadrat();
-        figvekt[3] = new Linje();
+
+        figvekt[0] = new Cirkel(5, 7, 2,50);
+        figvekt[1] = new Kvadrat();
+        figvekt[2] = new Linje();
 
 
 

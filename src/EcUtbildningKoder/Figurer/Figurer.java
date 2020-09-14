@@ -3,7 +3,7 @@ package EcUtbildningKoder.Figurer;
 //11September
 //Detta är en genomgång av superclasser och subclasser och hur dom fungerar.
 
-public class Figurer {//superclassen
+public abstract class Figurer {//superclassen
     private int x;
     private int y;
     private int bredd; //ska ligga först ,deklarera medlems variabler
@@ -68,6 +68,6 @@ public class Figurer {//superclassen
 
     public void rita (){
 
-        System.out.println("nu ska vi rita en figur");
+        System.out.println("figuren vi börjar rita en:");
     }
 }
