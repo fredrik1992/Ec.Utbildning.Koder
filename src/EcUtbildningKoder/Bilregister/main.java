@@ -12,7 +12,7 @@ public class main {
         //  fordonsinnehavare.addCar("Audi",20,120);
         // System.out.println(fordonsinnehavare.getNumOfCars());
 
-        Fordonsinnehavare owner = new Fordonsinnehavare("Fredrik Granath", "199207220055");
+        Fordonsinnehavare owner = new Fordonsinnehavare("Fredrik Granath", "199204502522");
 
         owner.addCar(new Mc("mbw", 123244434, 123, 125));
         owner.addCar(new Bil("Fiat", 123244434, 978, 7));
