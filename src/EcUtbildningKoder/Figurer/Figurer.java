@@ -64,4 +64,10 @@ public class Figurer {//superclassen
     public int getBredd() {
         return bredd;
     }
+
+
+    public void rita (){
+
+        System.out.println("nu ska vi rita en figur");
+    }
 }

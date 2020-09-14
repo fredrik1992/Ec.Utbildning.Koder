@@ -26,6 +26,12 @@ public class Cirkel extends Figurer {//skapar en subclass ifrån figurer
         String s = String.format("Cirklen har %s radie:%d", super.toString(), getRadie());
         return s;
     }
+    @Override
+    public void rita() {
+        System.out.println("nu ska vi rita en cirkel");
+
+
+    }
 
     void setRadie(int radie) {// används för
         if (radie >= 0)

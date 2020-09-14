@@ -22,8 +22,15 @@ public class Kvadrat extends Figurer {////arv extends
 
     @Override
     public String toString() {
-        String s = String.format("Kvadraten har %s sluty:%d slytx:/d", super.toString(), getSluty(), getSlutX());
+        String s = String.format("Kvadraten har %s sluty:%d slytx:%d", super.toString(), getSluty(), getSlutX());
         return s;
+    }
+
+    @Override
+    public void rita() {
+        System.out.println("nu ska vi rita en kvadrat");
+
+
     }
 
     public void setSlutX(int x) {
