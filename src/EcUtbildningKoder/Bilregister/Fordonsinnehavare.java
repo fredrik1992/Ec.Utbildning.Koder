@@ -68,9 +68,10 @@ public class Fordonsinnehavare extends Person {
     public void removeCarWithRegNummer() {
         Scanner scan = new Scanner(System.in);
         System.out.println("write the regnum of the car to remove");
-        int regNumToRemove = scan.nextInt();
+        String regNumToRemove = scan.nextLine();
         for (int i = 0; i < fordon.length; i++) {
-            if (fordon[i] != null && fordon[i].getRegistreringsnummer() == regNumToRemove) {
+
+            if (fordon[i] != null && fordon[i].getRegistreringsnummer().equals(regNumToRemove)) {
                 fordon[i] = null;
                 i = fordon.length;
             }

@@ -3,24 +3,24 @@ package EcUtbildningKoder.Bilregister;
 public class Fordon {
     private String märke;
     private int chassinummer;
-    private int registreringsnummer;
+    private String registreringsnummer;
 
 
     public Fordon() {
         märke = "null";
         chassinummer = 0;
-        registreringsnummer = 0;
+        registreringsnummer = "null";
 
     }
 
-    public Fordon(String märke, int chassinummer, int registreringsnummer) {
+    public Fordon(String märke, int chassinummer, String registreringsnummer) {
         setMärke(märke);
         setChassinummer(chassinummer);
         setRegistreringsnummer(registreringsnummer);
     }
 
     public String toString(){
-        String s = String.format("Märke:%s Chasssinummer:%d Registreringsnummer:%d"
+        String s = String.format("Märke:%s Chasssinummer:%d Registreringsnummer:%S"
                 ,getMärke(),getChassinummer(),getRegistreringsnummer());
         return s;
     }
@@ -43,11 +43,11 @@ public class Fordon {
         return chassinummer;
     }
 
-    public void setRegistreringsnummer(int registreringsnummer) {
+    public void setRegistreringsnummer(String registreringsnummer) {
         this.registreringsnummer = registreringsnummer;
     }
 
-    public int getRegistreringsnummer() {
+    public String getRegistreringsnummer() {
         return registreringsnummer;
     }
 

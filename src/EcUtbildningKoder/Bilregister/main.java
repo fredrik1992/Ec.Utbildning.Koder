@@ -14,9 +14,9 @@ public class main {
 
         Fordonsinnehavare owner = new Fordonsinnehavare("Fredrik Granath", "199204502522");
 
-        owner.addCar(new Mc("mbw", 123244434, 123, 125));
-        owner.addCar(new Bil("Fiat", 123244434, 978, 7));
-        owner.addCar(new Bil("Kia", 45678952, 457, 5));
+        owner.addCar(new Mc("mbw", 123244434, "ABC 123", 125));
+        owner.addCar(new Bil("Fiat", 123244434, "ABC 124", 7));
+        owner.addCar(new Bil("Kia", 45678952, "ABC 125", 5));
 
         System.out.printf("\n \n");
         owner.printList();

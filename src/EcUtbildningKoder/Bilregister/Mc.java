@@ -9,7 +9,7 @@ public class Mc extends Fordon {
         kubik = 0;
     }
 
-    public Mc(String märke, int chassinummer, int registreringsnummer, int kubik) {
+    public Mc(String märke, int chassinummer, String registreringsnummer, int kubik) {
 
         super(märke, chassinummer, registreringsnummer);
         setKubik(kubik);

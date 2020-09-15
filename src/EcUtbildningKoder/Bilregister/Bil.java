@@ -9,7 +9,7 @@ public class Bil extends Fordon{
 
     }
 
-    public Bil(String märke, int chassinummer, int registreringsnummer,int platser) {
+    public Bil(String märke, int chassinummer, String registreringsnummer,int platser) {
         super(märke,chassinummer,registreringsnummer);
         setPlatser(platser);
 
