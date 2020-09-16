@@ -2,7 +2,7 @@ package EcUtbildningKoder;
 
 import java.util.Scanner;
 
-public class TryCatch {
+public class TryCatchExempel {
 
 
     public static void main(String[] args) {

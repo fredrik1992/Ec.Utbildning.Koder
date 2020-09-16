@@ -1,4 +1,4 @@
-package EcUtbildningKoder.ArvAggregatAssociationExempel;
+package EcUtbildningKoder.ArvAggregatAssociationPolymorficsmExempel;
 //2020/09/16
 //Fredrik Granath
 
@@ -10,6 +10,9 @@ public class Person {
     }
     public Person(String namn){
         setNamn(namn);
+    }
+    public void öppna(){
+        System.out.println("jag öppnar dörren");
     }
 
     public void setNamn(String n){

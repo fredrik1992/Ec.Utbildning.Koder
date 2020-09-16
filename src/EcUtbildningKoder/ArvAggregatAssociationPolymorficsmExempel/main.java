@@ -1,4 +1,4 @@
-package EcUtbildningKoder.ArvAggregatAssociationExempel;
+package EcUtbildningKoder.ArvAggregatAssociationPolymorficsmExempel;
 
 public class main {
     public static void main (String [] args){
